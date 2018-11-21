@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".TableLayoutActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/clientimain"
+                android:layout_width="0dip"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/uno"
+                tools:text="1" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/button1"
+                android:layout_width="0dip"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/dos"
+                tools:text="2" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/clientimaintable3"
+                android:layout_width="0dip"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/tres"
+                tools:text="3" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+
+            <Button
+                android:id="@+id/buttontable4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/cuatro"
+                tools:text="4" />
+
+
+            <Button
+                android:id="@+id/clientimaitable5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dip"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="@string/cinco"
+                tools:text="5" />
+
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
