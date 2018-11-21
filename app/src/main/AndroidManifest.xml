@@ -17,12 +17,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ViewActivity"></activity>
-        <activity android:name=".View1Activity"></activity>
-        <activity android:name=".View2Activity"></activity>
-        <activity android:name=".View3Activity"></activity>
-        <activity android:name=".View4Activity"></activity>
-        <activity android:name=".View5Activity"></activity>
+        <activity android:name=".LayoutVerticalActivity"></activity>
+        <activity android:name=".LayoutHorizontalActivity"></activity>
+        <activity android:name=".RelativeLayoutActivity"></activity>
+        <activity android:name=".TableLayoutActivity"></activity>
+        <activity android:name=".FrameLayoutActivity"></activity>
+        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".GridViewActivity"></activity>
     </application>
 
 </manifest>

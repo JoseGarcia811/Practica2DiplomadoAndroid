@@ -1,17 +1,28 @@
 <resources>
-    <string name="app_name">Clase1Android</string>
-    <string name="button_6">Button 6</string>
-    <string name="button_5">Button 5</string>
-    <string name="button_4">Button 4</string>
-    <string name="button_3">Button 3</string>
-    <string name="button_2">Button 2</string>
-    <string name="button_1">Button 1</string>
+    <string name="app_name">Pincipal Activity</string>
+    <string name="button_7">BOTON GRID VIEW</string>
+    <string name="button_6">BOTON LIST VIEW</string>
+    <string name="button_5">BOTON FRAME LAYOUT</string>
+    <string name="button_4">BOTON TABLE LAYOUT</string>
+    <string name="button_3">BOTON RELATIVE LAYOUT</string>
+    <string name="button_2">BOTON LINEAR LAYOUT HORIZONTAL</string>
+    <string name="button_1">BOTON LINEAR LAYOUT VERTICAL</string>
+
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
 
     <string name="volver_atras">Volver atras</string>
     <string name="viewxml">View XML</string>
     <string name="viewsession">View Session</string>
-    <string name="color_mamey">Color Mamey</string>
-    <string name="color_amarillo">Color Amarillo</string>
-    <string name="color_morado">Color Morado</string>
-    <string name="color_rojo">Color Rojo</string>
+    <string name="color_azul">AZUL</string>
+    <string name="color_amarillo">AMARILLO</string>
+    <string name="color_verde">VERDE</string>
+    <string name="color_rojo">ROJO</string>
+    <string name="notificaion">DESPLEGAR NOTIFICACION</string>
+    <string name="todo">TODO</string>
+    <string name="cero">0</string>
+    <string name="hello_world">hello_world</string>
 </resources>
